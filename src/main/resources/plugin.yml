@@ -1,0 +1,10 @@
+name: AdvancementHealth
+version: ${project.version}
+main: me.swipez.advancementhealth.Advancementhealth
+api-version: 1.16
+authors: [ notnotnotswipez ]
+description: Reduces max health when you earn an advancement
+commands:
+  advchallenge:
+    usage: /advchallenge <start/stop/reset>
+    description: Toggles the challenge
